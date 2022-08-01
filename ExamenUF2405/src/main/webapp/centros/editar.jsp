@@ -1,7 +1,7 @@
-<%@page import="modelo.Centro"%>
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-
+<%@page import="modelo.Centro"%>
 <jsp:include page="/plantillas/cabecera.jsp"></jsp:include>
 
 <% Centro centro = (Centro) request.getAttribute("centro"); 

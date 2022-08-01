@@ -1,7 +1,8 @@
-<%@page import="modelo.Centro"%>
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@page import="java.util.List" %>
+<%@page import="modelo.Centro"%>
 <jsp:include page="/plantillas/cabecera.jsp"></jsp:include>
 
 <a href="?opcion=nuevo"  class="boton">Insertar Centro</a>
